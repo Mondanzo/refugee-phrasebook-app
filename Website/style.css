@@ -1,0 +1,70 @@
+
+/*header*/
+#header{
+	position: relative;
+	background-color:gray;
+}
+
+#heading {
+cursor: default;
+font-family: "Comic Sans MS", cursive, sans-serif;
+color: darkblue;
+display: inline-block;
+text-shadow: 4px 2px black;
+}
+
+#sprache{
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	background-color: gray;
+	color: black;
+	display: inline-block;
+	width: 97px;
+	text-align: center;
+}
+
+#sprache p{
+	cursor: default;
+	height: 15px;
+}
+
+#sprache .lang{
+height: 0;
+overflow: hidden;
+position: absolute;
+color: black;
+transition: 600ms all;
+background-color: gray;
+width: 100%;
+}
+
+#sprache:hover .lang{
+	height: 105px;
+	position: absolute;
+	cursor: pointer;
+	width: 100%;
+}
+
+#script{
+	text-align: center;
+	border-width: 2px;
+	border-color: grey;
+	border-style: solid;
+	color: white;
+}
+#bottom{
+	background-color: gray;
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+}
+
+/*Body*/
+html,
+body {background-color: black;
+	min-height: 100%;
+	padding: 0;
+	margin: 0;
+}
