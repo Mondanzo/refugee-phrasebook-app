@@ -1,2 +1,8 @@
 
+- Pro PB eine .XML-Datei
 
+<phrase>
+  <id>GREETING</id>
+  <german>Hallo</german>
+  ...
+</phrase>
